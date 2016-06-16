@@ -135,3 +135,30 @@ git checkout history
 
 https://www.sharcnet.ca/help/index.php/Getting_an_Account_with_SHARCNET
 https://ccdb.computecanada.ca
+
+#Git online
+
+#To read about the licenses when you create a new project
+creativecommons.org/licenses
+
+git remote add github https://github.com/yourusername/GitNotes.git 
+git remote -v
+
+# Send master branch (from your pc) to github online repository......you need your git-username and password
+```bash
+git push github master
+```bash
+
+
+#To clone other user's files to your gitnotes-cc folder (note that this adds the other users system in as a remote called origin)
+
+```bash
+git clone https://github.com/otheruser/gitnotes.git gitnotes-cc
+```
+
+Make your changes and commit them.  Then to send them (you can do `git remote` to see what the name is)
+
+```bash
+git push origin master
+```
+
